@@ -1,0 +1,35 @@
+body{background-color: rgb(212, 169, 231);
+overflow-x: hidden;
+overflow-y: auto;}
+#show_sketch{
+ float: right;   
+}
+
+h1{
+color:rgb(127, 253, 77) ; 
+background-color:rgb(245, 217, 245) ;  
+}
+
+canvas{
+border:5px solid white ;
+border-radius:20px ;
+animation-name:tarun ;  
+animation-duration:4s ;
+animation-iteration-count: infinite;
+margin-top:90px; 
+}
+
+@keyframes tarun {
+from{box-shadow:1px 1px 30px yellow;}
+to{box-shadow:1px 1px 30px green ;}    
+}
+
+p{
+ margin-top:10px ;
+ font-size: 25px;   
+}
+#cl-btn{
+ float: left;   
+}
+
+
